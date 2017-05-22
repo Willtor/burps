@@ -1,5 +1,5 @@
 body {
-    background-color: #F0F0F0;
+    background-color: #FFFFFF;
     margin: 0px;
     padding: 0px;
 }
@@ -9,8 +9,39 @@ div {
     padding: 0px;
 }
 
-#controls {
+.row {
     float: left;
-    height: 100%;
+    clear: left;
+}
+
+.col_left {
+    float: left;
     margin-right: 10px;
+    margin-top: 10px;
+}
+
+.col_right {
+    float: left;
+    margin-top: 10px;
+}
+
+.bigtext {
+    font-size: 2em;
+    font-weight: bold;
+    font-variant: small-caps;
+    text-align: right;
+}
+
+.bigbox {
+    font-size: 2em;
+    border: 1px solid #202020;
+    padding: 4px;
+    width: 1.2em;
+    text-align: center;
+}
+
+table, tr, td {
+    padding: 4px;
+    margins: 0px;
+    border-collapse: collapse;
 }
