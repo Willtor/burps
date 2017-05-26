@@ -16,26 +16,28 @@ div {
 
 .col_left {
     float: left;
-    margin-right: 10px;
-    margin-top: 10px;
 }
 
 .col_right {
     float: left;
-    margin-top: 10px;
+}
+
+.solidborder {
+    border: 2px solid black;
+    padding: 0.2em;
 }
 
 .bigtext {
-    font-size: 2em;
+    font-size: 3em;
     font-weight: bold;
     font-variant: small-caps;
     text-align: right;
 }
 
 .bigbox {
-    font-size: 2em;
+    font-size: 3em;
     border: 1px solid #202020;
-    padding: 4px;
+    padding: 0.2em;
     width: 1.2em;
     text-align: center;
 }
