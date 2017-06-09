@@ -153,5 +153,88 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col_left">
+        BASIC LIFT (STxST)/5<input type="text" id="basiclift"> DAMAGE Thr<input type="text" id="dmgthr"> Sw<input type="text" id="dmgsw"><br>
+        BASIC SPEED<input type="text" id="speed">[<input type="text" id="speedpts" class="small">] BASIC MOVE<input type="text" id="move">[<input type="text" id="movepts" class="small">]<br>
+        <div class="solidborder">
+          <table>
+            <tr>
+              <td colspan="2"><center><strong>ENCUMBRANCE</strong></center></td>
+              <td colspan="2"><center><strong>MOVE</strong></center></td>
+              <td colspan="2"><center><strong>DODGE</strong></center></td>
+            </tr>
+            <tr>
+              <td>None(0) = BL</td>
+              <td><input type="text" id="enumb0"></td>
+              <td>BM x 1</td>
+              <td><input type="text" id="move0"></td>
+              <td>Dodge</td>
+              <td><input type="text" id="dodge0"></td>
+            </tr>
+            <tr>
+              <td>Light(1) = 2xBL</td>
+              <td><input type="text" id="enumb1"></td>
+              <td>BM x 0.8</td>
+              <td><input type="text" id="move1"></td>
+              <td>Dodge -1</td>
+              <td><input type="text" id="dodge1"></td>
+            </tr>
+            <tr>
+              <td>Medium(2) = 3xBL</td>
+              <td><input type="text" id="enumb2"></td>
+              <td>BM x 0.6</td>
+              <td><input type="text" id="move2"></td>
+              <td>Dodge -2</td>
+              <td><input type="text" id="dodge2"></td>
+            </tr>
+            <tr>
+              <td>Heavy(3) = 6xBL</td>
+              <td><input type="text" id="enumb3"></td>
+              <td>BM x 0.4</td>
+              <td><input type="text" id="move3"></td>
+              <td>Dodge -3</td>
+              <td><input type="text" id="dodge3"></td>
+            </tr>
+            <tr>
+              <td>X-Heavy(4) = 10xBL</td>
+              <td><input type="text" id="enumb4"></td>
+              <td>BM x 0.2</td>
+              <td><input type="text" id="move4"></td>
+              <td>Dodge -4</td>
+              <td><input type="text" id="dodge4"></td>
+            </tr>
+          </table>
+        </div>
+      </div> <!-- col_left" -->
+      <div class="col_right">
+        <div class="col_left">
+          <div class="solidborder">
+            <center>
+              <strong>PARRY</strong><br>
+              <p>9</p>
+            </center>
+          </div>
+          <div class="solidborder">
+            <center>
+              <strong>BLOCK</strong><br>
+              <p>0</p>
+            </center>
+          </div>
+        </div>
+        <div class="col_right">
+          <div class="solidborder">
+            <center><strong>Reaction Modifiers</strong></center><br>
+            <strong>Appearance</strong><input type="text" id="appearance"><br>
+            <strong>Status</strong><input type="text" id="status"><br>
+            <strong>Reputation</strong><input type="text" id="reputation0"><br>
+            <input type="text" id="reputation1"><br>
+            <input type="text" id="reputation2"><br>
+            <input type="text" id="reputation3"><br>
+            <input type="text" id="reputation4">
+          </div>
+        </div>
+      </div> <!-- col_right -->
+    </div>
   </body>
 </html>
