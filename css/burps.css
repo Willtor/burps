@@ -12,6 +12,7 @@ div {
 .row {
     float: left;
     clear: left;
+    margin: 0.3em;
 }
 
 .col_left {
@@ -63,3 +64,13 @@ input.small {
     width: 2.5em;
     text-align: center;
 }
+
+#charactername { width: 20em; }
+#playername { width: 15em; }
+#pointtotal { width: 5em; }
+#Ht { width: 7em; }
+#Wt { width: 7em; }
+#size_modifier { width: 7em; }
+#Age { width: 7em; }
+#unspent_pts { width: 7em; }
+#Appearance_top { width: 45em; }
